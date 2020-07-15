@@ -1,4 +1,4 @@
-# 单元测试与Junit4
+#   单元测试与Junit4
 
 ## 为什么单元测试
 
@@ -26,6 +26,7 @@
 | @Test(timeout = 1000)             | 测试方法执行超过1000毫秒后算超时，测试将失败                 |
 | @Test(expected = Exception.class) | 测试方法期望得到的异常类，如果方法执行没有抛出指定的异常，则测试失败 |
 | @Ignore("not ready yet")          | 执行测试时将忽略掉此方法，如果用于修饰类，则忽略整个类       |
+| @Mock与@InjectMock                | 将被@Mock注解标注的对象注入到被@InjectMock的对象里           |
 
 详细注解：<https://junit.org/junit5/docs/current/user-guide/>
 
